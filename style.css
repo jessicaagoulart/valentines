@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FC86AA;
+    font-family: 'Raleway';
+}
+
+header {
+    background: #151536;
+    padding: 11rem;
+    text-align: center;
+}
+
+footer {
+    margin: auto;
+    width: 1170px;
+    text-align: center;
+}
+
+/* FOTOS ================== */
+
+.container {
+    margin: auto;
+    margin-top: -19rem;
+    max-width: 1170px;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pictures {
+    width: 100%;
+    column-count: 3;
+    column-gap: 30px;
+}
+
+
+
+/* TITULO ================== */
+
+
+h1 {
+    color: whitesmoke;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-size: 100px;
+}
+
+hr {
+    width: 100%;
+    height: 10px;
+    background-color: #151536;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #151536;
+}
+
+h2 {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+}
+
+/* ICONES ================== */
+
+#images {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: -6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 290px;
+    position: relative;
+}
+
+/* TEXTOS ================== */
+
+#texts {
+    max-width: 1170px;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 100px;
+
+}
+
+.cards {
+    background: #D8DCD6;
+    padding-top: 6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+
+}
+
+h3 {
+    color: #fc6d98;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    color: #151536;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h5 {
+    color: #D8DCD6;
+    font-size: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.last {
+    width: 500px;
+    height: 5px;
+    background-color: #151536;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #151536;
+}
+
+embed {
+    background:white;
+}
+
